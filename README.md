@@ -2,9 +2,10 @@
 # ClientServerBasics (2.0)
 Starter code for the basic client-server assignment
 
+Alex Benjamim de Oliveira Martins
 
-Este template corresponde ao exemplo da Fig. 2.3 do livro. O exercício consiste em acrescentar funcionalidade ao servidor para torná-lo mais útil. Essa funcionalidade deve ser acessível aos clientes. Por exemplo, o servidor pode ser uma espécie de calculadora remota. O cliente passa dois valores numéricos, juntamente com o nome de uma operação (ex.: add, subtract, multiply, divide) e o servidor executa a operação respectiva e retorna seu resultado para o cliente. Você pode implementar um servidor com outras funcionalidades (diferente da calculadora). O imporante é que ele ofereça pelo menos três operações diferentes que os clientes podem utilizar remotamente, passando dados para serem processados e recebendo o resultado desse processamento como resposta.
-
-Tarefa individual.
-
-Incluir um Readme descritivo do sistema implementado.
+Esse código é capaz de rodar na nuvem, para esse exemplo foi usado o serviço da AWS. 
+O sistema é uma calculadora simples dividida em server e client.
+Para rodar a aplicação basta executar em um terminal o arquivo server.py e em outro executar o client.py
+> Obs: Se for rodar na nuvem, é preciso configurar o IP do servidor no arquivo de configurações
+Depois, rode o arquivo do client 'client.py' (em outro terminal). Ele irá pedir o operador e os numeros. O resultado será printado no terminal.
